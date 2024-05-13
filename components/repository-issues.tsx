@@ -1,25 +1,14 @@
 "use client"
 
 import Link from "next/link"
-import React from "react"
 
 import { useGetRepositoryIssues } from "@/hooks/useGetRepositoryIssues"
-import { Issue } from "@/types"
 
 import Badge from "./badge"
 import Skeleton from "./skeleton"
 
-const RepositoryIssues = ({
-    owner,
-    name,
-    languages
-}: {
-    owner: string
-    name: string
-    languages: string[]
-}) => {
-    const { issues, loading, error } = useGetRepositoryIssues({ owner, name })
-    console.log({ issues, loading, error })
+const RepositoryIssues = () => {
+    const { issues, loading, error } = useGetRepositoryIssues()
 
     if (loading) {
         return (
@@ -32,9 +21,9 @@ const RepositoryIssues = ({
 
     return (
         <>
-            {issues.map((issue: Issue, index) => (
+            {issues.map((issue) => (
                 <Link
-                    key={`issue-${index}-issue.number`}
+                    key={issue.number + issue.publishedAt}
                     className="flex flex-col justify-between min-h-[180px] md:min-h-36 rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition-all hover:scale-105 hover:shadow-md"
                     href={issue.url}
                     rel="noopener noreferrer"
@@ -43,7 +32,7 @@ const RepositoryIssues = ({
                     <div className="flex flex-col justify-between">
                         <div className="flex items-center justify-between">
                             <span className="text-sm font-medium text-gray-500">
-                                {`${name}/${owner}`}
+                                {`${issue.repo}/${issue.owner}`}
                             </span>
                             <span className="text-xs text-gray-500">
                                 {new Date(issue.publishedAt).toLocaleDateString(
@@ -53,7 +42,7 @@ const RepositoryIssues = ({
                                         month: "short",
                                         day: "numeric"
                                     }
-                                )}{" "}
+                                )}
                             </span>
                         </div>
                         <h3 className="mt-2 text-lg md:text-base font-medium text-gray-900">
@@ -64,7 +53,7 @@ const RepositoryIssues = ({
                         </h3>
                     </div>
                     <div className="flex flex-wrap mt-2">
-                        {languages.map((lang) => (
+                        {issue.languages.map((lang) => (
                             <Badge key={lang} name={lang} className="mr-2" />
                         ))}
                     </div>

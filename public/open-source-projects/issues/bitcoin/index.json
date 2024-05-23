@@ -666,6 +666,7 @@
     "title": "LevelDB read failure: Corruption: block checksum mismatch",
     "labels": [
       "Bug",
+      "UTXO Db and Indexes",
       "Data corruption"
     ]
   }

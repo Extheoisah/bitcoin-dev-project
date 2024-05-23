@@ -29,4 +29,4 @@ jobs:
             - name: Fetch Issues from GitHub and Update Files
               env:
                   SFIGS_TOKEN: ${{ secrets.SFIGS_TOKEN }}
-              run: npm run fetch-isssues
+              run: npm run fetch-issues

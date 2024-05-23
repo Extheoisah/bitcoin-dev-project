@@ -30,3 +30,10 @@ jobs:
               env:
                   SFIGS_TOKEN: ${{ secrets.SFIGS_TOKEN }}
               run: npm run fetch-issues
+
+            - name: Commit and Push Changes
+              run: |
+                  git config --global user.email "${{secrets.EMAIL}}"
+                  git config --global user.name "${{secrets.NAME}}"
+                  git commit -am "Update issues" || echo "No changes to commit"
+                  git push

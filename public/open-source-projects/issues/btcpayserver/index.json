@@ -65,5 +65,13 @@
       "Lightning",
       "API"
     ]
+  },
+  {
+    "url": "https://github.com/btcpayserver/btcpayserver/issues/6003",
+    "publishedAt": "2024-05-23T21:27:26Z",
+    "title": "[Bug]: Refund crashes when the invoice is settled qith no payment",
+    "labels": [
+      "Bug"
+    ]
   }
 ]

@@ -49,14 +49,6 @@
     ]
   },
   {
-    "url": "https://github.com/btcpayserver/btcpayserver/issues/5721",
-    "publishedAt": "2024-02-03T07:05:05Z",
-    "title": "Amount column on dashboard goes out of the layout on mobile",
-    "labels": [
-      "Bug"
-    ]
-  },
-  {
     "url": "https://github.com/btcpayserver/btcpayserver/issues/5797",
     "publishedAt": "2024-02-28T17:01:06Z",
     "title": "Failed to import a Multisig Bitcoin wallet -with any of the available options-",

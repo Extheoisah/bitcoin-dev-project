@@ -651,6 +651,16 @@
     ]
   },
   {
+    "url": "https://github.com/bitcoin/bitcoin/issues/30077",
+    "publishedAt": "2024-05-10T03:15:00Z",
+    "title": "RPC: Internal bug in `walletprocesspsbt` when non_witness_utxo is not provided and a witness signature is invalid",
+    "labels": [
+      "Bug",
+      "Wallet",
+      "RPC/REST/ZMQ"
+    ]
+  },
+  {
     "url": "https://github.com/bitcoin/bitcoin/issues/30138",
     "publishedAt": "2024-05-18T04:34:07Z",
     "title": "LevelDB error: Corruption: block checksum mismatch didn't trigger reindex.",

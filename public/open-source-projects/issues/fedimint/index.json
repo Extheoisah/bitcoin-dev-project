@@ -382,14 +382,5 @@
       "bug",
       "wallet"
     ]
-  },
-  {
-    "url": "https://github.com/fedimint/fedimint/issues/5388",
-    "publishedAt": "2024-05-29T15:57:32Z",
-    "title": "Support multiple withdrawals per session in recoverytool epochs",
-    "labels": [
-      "bug",
-      "wallet"
-    ]
   }
 ]

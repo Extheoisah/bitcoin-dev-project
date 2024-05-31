@@ -271,14 +271,6 @@
     ]
   },
   {
-    "url": "https://github.com/bitcoin/bitcoin/issues/23186",
-    "publishedAt": "2021-10-05T13:29:20Z",
-    "title": "Failed assertion during shutdown",
-    "labels": [
-      "Bug"
-    ]
-  },
-  {
     "url": "https://github.com/bitcoin/bitcoin/issues/23234",
     "publishedAt": "2021-10-08T23:23:26Z",
     "title": "Shutdown during reindex-chainstate can block forever",

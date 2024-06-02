@@ -236,5 +236,15 @@
       "good first issue",
       "sv2 pool"
     ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/951",
+    "publishedAt": "2024-06-02T14:20:27Z",
+    "title": "`StandardChannel` support on JDC",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "job-declarator-client"
+    ]
   }
 ]

@@ -246,5 +246,26 @@
       "help wanted",
       "job-declarator-client"
     ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/953",
+    "publishedAt": "2024-06-03T20:51:04Z",
+    "title": "MG test templates",
+    "labels": [
+      "help wanted",
+      "test",
+      "important",
+      "message-generator"
+    ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/954",
+    "publishedAt": "2024-06-03T21:05:50Z",
+    "title": "MG message library",
+    "labels": [
+      "help wanted",
+      "important",
+      "message-generator"
+    ]
   }
 ]

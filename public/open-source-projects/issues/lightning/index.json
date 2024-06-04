@@ -316,6 +316,16 @@
     ]
   },
   {
+    "url": "https://github.com/ElementsProject/lightning/issues/7320",
+    "publishedAt": "2024-05-17T08:14:37Z",
+    "title": "gossipd: gossip_store: get delete entry offset",
+    "labels": [
+      "bug",
+      "crash",
+      "component::gossipd"
+    ]
+  },
+  {
     "url": "https://github.com/ElementsProject/lightning/issues/7333",
     "publishedAt": "2024-05-24T00:47:29Z",
     "title": "Schemas use msat where parameter is actually sat",

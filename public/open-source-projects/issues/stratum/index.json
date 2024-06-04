@@ -267,5 +267,17 @@
       "important",
       "message-generator"
     ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/955",
+    "publishedAt": "2024-06-04T15:13:51Z",
+    "title": "MG tests reproducing #840",
+    "labels": [
+      "bug",
+      "help wanted",
+      "test",
+      "important",
+      "message-generator"
+    ]
   }
 ]

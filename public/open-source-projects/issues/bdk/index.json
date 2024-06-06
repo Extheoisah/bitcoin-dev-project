@@ -359,5 +359,15 @@
     "labels": [
       "bug"
     ]
+  },
+  {
+    "url": "https://github.com/bitcoindevkit/bdk/issues/1462",
+    "publishedAt": "2024-06-06T03:02:19Z",
+    "title": "Examples don't show how to properly initialize a IndexedTxGraph etc from disk",
+    "labels": [
+      "bug",
+      "good first issue",
+      "invalid"
+    ]
   }
 ]

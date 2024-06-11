@@ -73,5 +73,13 @@
     "labels": [
       "Bug"
     ]
+  },
+  {
+    "url": "https://github.com/btcpayserver/btcpayserver/issues/6046",
+    "publishedAt": "2024-06-11T09:52:17Z",
+    "title": "Fix failing Fast tests",
+    "labels": [
+      "Bug"
+    ]
   }
 ]

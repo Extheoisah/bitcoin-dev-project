@@ -494,16 +494,6 @@
     ]
   },
   {
-    "url": "https://github.com/bitcoin/bitcoin/issues/26973",
-    "publishedAt": "2023-01-26T09:43:00Z",
-    "title": "bump: ignore WALLET_INCREMENTAL_RELAY_FEE when user specifies fee rate",
-    "labels": [
-      "Bug",
-      "Wallet",
-      "RPC/REST/ZMQ"
-    ]
-  },
-  {
     "url": "https://github.com/bitcoin/bitcoin/issues/27002",
     "publishedAt": "2023-01-30T23:31:39Z",
     "title": "listunspent, fundrawtransaction, getwalletinfo locks wallet for any other operation",

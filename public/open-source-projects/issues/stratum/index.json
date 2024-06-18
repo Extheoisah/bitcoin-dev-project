@@ -238,17 +238,6 @@
     ]
   },
   {
-    "url": "https://github.com/stratum-mining/stratum/issues/936",
-    "publishedAt": "2024-05-27T12:44:22Z",
-    "title": "TryFrom(u8,&mut[u8]) for PoolMessages is broken",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "sv2 pool"
-    ]
-  },
-  {
     "url": "https://github.com/stratum-mining/stratum/issues/951",
     "publishedAt": "2024-06-02T14:20:27Z",
     "title": "`StandardChannel` support on JDC",
@@ -289,6 +278,16 @@
       "test",
       "important",
       "message-generator"
+    ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/974",
+    "publishedAt": "2024-06-18T08:41:53Z",
+    "title": "Add semver checks to CI",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "important"
     ]
   }
 ]

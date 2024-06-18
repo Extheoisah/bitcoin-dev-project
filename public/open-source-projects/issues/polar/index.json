@@ -73,15 +73,6 @@
     ]
   },
   {
-    "url": "https://github.com/jamaljsr/polar/issues/754",
-    "publishedAt": "2023-08-04T12:19:00Z",
-    "title": "Bug: clightning docker images fails because of cert generation error",
-    "labels": [
-      "bug",
-      "wip"
-    ]
-  },
-  {
     "url": "https://github.com/jamaljsr/polar/issues/779",
     "publishedAt": "2023-09-15T18:55:19Z",
     "title": "Bug: Unable to run CLN on macOS Vetura (13.5.2)",
@@ -98,14 +89,6 @@
       "enhancement",
       "good first issue",
       "up for grabs"
-    ]
-  },
-  {
-    "url": "https://github.com/jamaljsr/polar/issues/863",
-    "publishedAt": "2024-03-21T18:00:03Z",
-    "title": "Bug: Update instructions to create CLN custom node",
-    "labels": [
-      "bug"
     ]
   }
 ]

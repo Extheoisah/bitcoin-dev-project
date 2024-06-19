@@ -289,5 +289,14 @@
       "help wanted",
       "important"
     ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/979",
+    "publishedAt": "2024-06-19T07:49:55Z",
+    "title": "Speed up github action with sscache",
+    "labels": [
+      "good first issue",
+      "help wanted"
+    ]
   }
 ]

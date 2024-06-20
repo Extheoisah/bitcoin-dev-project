@@ -1,15 +1,5 @@
 [
   {
-    "url": "https://github.com/jamaljsr/polar/issues/388",
-    "publishedAt": "2020-10-19T15:06:09Z",
-    "title": "Feature Request: Rename nodes",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "up for grabs"
-    ]
-  },
-  {
     "url": "https://github.com/jamaljsr/polar/issues/517",
     "publishedAt": "2021-11-30T04:49:34Z",
     "title": "Bug: Issue interacting with Sparrow using Bitcoind backend",

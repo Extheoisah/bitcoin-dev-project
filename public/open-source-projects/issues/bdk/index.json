@@ -344,5 +344,14 @@
     "labels": [
       "good first issue"
     ]
+  },
+  {
+    "url": "https://github.com/bitcoindevkit/bdk/issues/1483",
+    "publishedAt": "2024-06-21T03:02:05Z",
+    "title": "`DescriptorId` is not unique enough",
+    "labels": [
+      "bug",
+      "discussion"
+    ]
   }
 ]

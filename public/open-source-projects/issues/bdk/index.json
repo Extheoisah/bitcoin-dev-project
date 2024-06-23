@@ -342,7 +342,8 @@
     "publishedAt": "2024-06-20T00:16:33Z",
     "title": "KeychainTxOutIndex API inconsistent with respect to references (should be owned)",
     "labels": [
-      "good first issue"
+      "good first issue",
+      "api"
     ]
   },
   {

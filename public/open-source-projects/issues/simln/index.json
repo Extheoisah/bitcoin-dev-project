@@ -107,13 +107,5 @@
       "Robustness",
       "High Priority"
     ]
-  },
-  {
-    "url": "https://github.com/bitcoin-dev-project/sim-ln/issues/187",
-    "publishedAt": "2024-06-18T15:42:15Z",
-    "title": "ValueOrRange Serialize Issue",
-    "labels": [
-      "bug"
-    ]
   }
 ]

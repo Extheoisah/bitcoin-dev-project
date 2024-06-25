@@ -291,6 +291,17 @@
     ]
   },
   {
+    "url": "https://github.com/ElementsProject/lightning/issues/7117",
+    "publishedAt": "2024-02-28T15:59:25Z",
+    "title": "gci: Consider adding a nightly CI workflow for reprobuilds",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "continuous-integration",
+      "build"
+    ]
+  },
+  {
     "url": "https://github.com/ElementsProject/lightning/issues/7132",
     "publishedAt": "2024-03-07T18:02:42Z",
     "title": "Minor issue/question: Trailing spaces in Config file parameter make CLN fail to start",
@@ -304,6 +315,16 @@
     "title": "bitcoind: bad-txns-inputs-missingorspent on sendrawtransaction",
     "labels": [
       "bug"
+    ]
+  },
+  {
+    "url": "https://github.com/ElementsProject/lightning/issues/7283",
+    "publishedAt": "2024-04-29T08:13:54Z",
+    "title": "Add an API-Method which returns the emergency.recover file",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "backup"
     ]
   }
 ]

@@ -287,5 +287,14 @@
       "good first issue",
       "help wanted"
     ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/1006",
+    "publishedAt": "2024-06-26T17:58:05Z",
+    "title": "TProxy responding to mining.submit with result:true for low difficulty shares.",
+    "labels": [
+      "bug",
+      "translation proxy"
+    ]
   }
 ]

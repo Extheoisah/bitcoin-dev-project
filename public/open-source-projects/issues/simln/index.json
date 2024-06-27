@@ -107,5 +107,13 @@
       "Robustness",
       "High Priority"
     ]
+  },
+  {
+    "url": "https://github.com/bitcoin-dev-project/sim-ln/issues/189",
+    "publishedAt": "2024-06-27T12:56:50Z",
+    "title": "Use payment delay for offset if no start_secs is specified",
+    "labels": [
+      "bug"
+    ]
   }
 ]

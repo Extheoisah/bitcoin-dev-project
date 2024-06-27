@@ -631,8 +631,7 @@
     "title": "LevelDB error: Corruption: block checksum mismatch didn't trigger reindex.",
     "labels": [
       "Bug",
-      "Data corruption",
-      "Questions and Help"
+      "Data corruption"
     ]
   },
   {

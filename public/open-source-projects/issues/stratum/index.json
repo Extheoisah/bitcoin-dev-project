@@ -296,5 +296,15 @@
       "bug",
       "translation proxy"
     ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/1018",
+    "publishedAt": "2024-06-28T00:45:03Z",
+    "title": "`GetSize` implementation for `SubmitSolutionJd` is incomplete",
+    "labels": [
+      "bug",
+      "binary-sv2",
+      "codec-sv2"
+    ]
   }
 ]

@@ -45,15 +45,6 @@
     ]
   },
   {
-    "url": "https://github.com/jamaljsr/polar/issues/642",
-    "publishedAt": "2023-01-02T02:54:04Z",
-    "title": "Bug: Viewing terminals on Linux just gives a loading animated icon",
-    "labels": [
-      "bug",
-      "up for grabs"
-    ]
-  },
-  {
     "url": "https://github.com/jamaljsr/polar/issues/682",
     "publishedAt": "2023-02-21T14:25:15Z",
     "title": "Unable to connect to c-lightning node",

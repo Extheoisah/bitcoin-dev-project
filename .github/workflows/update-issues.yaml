@@ -2,12 +2,16 @@ name: Fetch and Update Issues
 
 on:
     schedule:
-        # every 5 mins
-        - cron: "*/5 * * * *"
+        - cron: "0 */2 * * *" # every 2 hours
     push:
         branches:
             - master
             - staging
+
+permissions:
+    contents: write
+    issues: read
+    pull-requests: write
 
 jobs:
     fetch-and-save-issues:
@@ -15,11 +19,13 @@ jobs:
         strategy:
             matrix:
                 node-version: [20]
-                branch: [master, staging]
+                branch: [staging, master]
+
         steps:
             - name: Checkout repository
               uses: actions/checkout@v3
               with:
+                  persist-credentials: true
                   ref: ${{ matrix.branch }}
 
             - name: Set up Node.js
@@ -38,9 +44,48 @@ jobs:
                   SFIGS_TOKEN: ${{ secrets.SFIGS_TOKEN }}
               run: npm run fetch-issues
 
-            - name: Commit and Push Changes
+            - name: Commit Changes
               run: |
-                  git config --global user.email "${{secrets.EMAIL}}"
-                  git config --global user.name "${{secrets.NAME}}"
-                  git commit -am "Update issues" || echo "No changes to commit"
-                  git push
+                  git config --global user.email "${{ secrets.EMAIL }}"
+                  git config --global user.name "${{ secrets.NAME }}"
+                  git commit -am "chore: update issues" || echo "No changes to commit"
+
+            - name: Push changes to the same branch
+              run: |
+                  git checkout -B update-issues-${{ matrix.branch }} # create/update branch based on the matrix branch
+                  git push origin update-issues-${{ matrix.branch }} --force
+
+            - name: Check for Existing Pull Request
+              id: pr-check
+              uses: actions/github-script@v6
+              with:
+                script: |
+                  const { data: pullRequests } = await github.pulls.list({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    state: 'open',
+                    head: `${context.repo.owner}:update-issues-${context.payload.inputs.branch}`
+                  });
+                  return pullRequests.length > 0 ? pullRequests[0].html_url : null;
+              continue-on-error: true
+
+            - name: Create Pull Request (if none exists)
+              if: steps.pr-check.outputs.result == ''
+              uses: peter-evans/create-pull-request@v4
+              with:
+                  branch: update-issues-${{ matrix.branch }}
+                  base: ${{ matrix.branch }}
+                  title: "Automated Update Issues for ${{ matrix.branch }}"
+                  body: "This is an automated pull request to update issues for ${{ matrix.branch }}."
+
+            - name: Comment on existing Pull Request (if already exists)
+              if: steps.pr-check.outputs.result != ''
+              uses: actions/github-script@v6
+              with:
+                script: |
+                  github.issues.createComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: context.issue.number,
+                    body: `Update already has an open pull request: ${{ steps.pr-check.outputs.result }}`
+                  });

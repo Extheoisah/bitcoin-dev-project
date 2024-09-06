@@ -45,15 +45,6 @@
     ]
   },
   {
-    "url": "https://github.com/bitcoindevkit/bdk/issues/534",
-    "publishedAt": "2022-01-26T19:17:05Z",
-    "title": "Remove BIP 69 sorting",
-    "labels": [
-      "bug",
-      "good first issue"
-    ]
-  },
-  {
     "url": "https://github.com/bitcoindevkit/bdk/issues/559",
     "publishedAt": "2022-03-07T12:47:11Z",
     "title": "`maybe_async` complicates isomorphic use-cases",
@@ -272,15 +263,6 @@
     ]
   },
   {
-    "url": "https://github.com/bitcoindevkit/bdk/issues/1125",
-    "publishedAt": "2023-09-14T14:31:46Z",
-    "title": "Calling `example_electrum sync` on an unconfirmed tx may result in the tx being stuck as unconfirmed eternally (according to the cli))",
-    "labels": [
-      "bug",
-      "module-blockchain"
-    ]
-  },
-  {
     "url": "https://github.com/bitcoindevkit/bdk/issues/1134",
     "publishedAt": "2023-09-28T06:58:14Z",
     "title": "BIP 326 Anti Fee Sniping",
@@ -301,12 +283,13 @@
     ]
   },
   {
-    "url": "https://github.com/bitcoindevkit/bdk/issues/1313",
-    "publishedAt": "2024-02-01T15:07:41Z",
-    "title": "\"Missing non_witness_utxo on foreign utxo <utxo>\"",
+    "url": "https://github.com/bitcoindevkit/bdk/issues/1266",
+    "publishedAt": "2024-01-11T08:20:27Z",
+    "title": "An alternative approach to `AnchorFromBlockPosition`.",
     "labels": [
-      "bug",
-      "module-wallet"
+      "good first issue",
+      "discussion",
+      "module-blockchain"
     ]
   },
   {
@@ -320,26 +303,69 @@
     ]
   },
   {
-    "url": "https://github.com/bitcoindevkit/bdk/issues/1362",
-    "publishedAt": "2024-02-28T00:09:03Z",
-    "title": "Update CI to prevent merging any prints to stdout ",
+    "url": "https://github.com/bitcoindevkit/bdk/issues/1462",
+    "publishedAt": "2024-06-06T03:02:19Z",
+    "title": "Examples don't show how to properly initialize a IndexedTxGraph etc from disk",
+    "labels": [
+      "bug",
+      "good first issue",
+      "invalid"
+    ]
+  },
+  {
+    "url": "https://github.com/bitcoindevkit/bdk/issues/1504",
+    "publishedAt": "2024-07-08T14:59:11Z",
+    "title": "The `url` dependency does not prevent URL homograph attacks",
     "labels": [
       "bug",
       "module-blockchain"
     ]
   },
   {
-    "url": "https://github.com/bitcoindevkit/bdk/issues/1407",
-    "publishedAt": "2024-04-18T13:45:33Z",
-    "title": "`Wallet::create_signers` should return the `KeychainTxOutIndex` changeset",
+    "url": "https://github.com/bitcoindevkit/bdk/issues/1507",
+    "publishedAt": "2024-07-09T13:02:02Z",
+    "title": "Remove `Anchor` trait and make anchors unique to `(Txid, BlockId)`",
     "labels": [
-      "good first issue"
+      "bug"
     ]
   },
   {
-    "url": "https://github.com/bitcoindevkit/bdk/issues/1440",
-    "publishedAt": "2024-05-13T07:25:38Z",
-    "title": "InsufficientFunds is duplicated within coin_selection::Error and CreateTxError enums",
+    "url": "https://github.com/bitcoindevkit/bdk/issues/1517",
+    "publishedAt": "2024-07-18T11:38:45Z",
+    "title": "Appending changesets to `Store` after opening causes overwriting",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "url": "https://github.com/bitcoindevkit/bdk/issues/1548",
+    "publishedAt": "2024-08-12T15:56:09Z",
+    "title": "MissingNonWitnessUtxo even before signing",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "url": "https://github.com/bitcoindevkit/bdk/issues/1557",
+    "publishedAt": "2024-08-14T15:14:24Z",
+    "title": "Inconsistent use of `check_wallet_descriptor`",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "url": "https://github.com/bitcoindevkit/bdk/issues/1577",
+    "publishedAt": "2024-08-27T10:25:57Z",
+    "title": "Address gap limit?",
+    "labels": [
+      "bug",
+      "discussion"
+    ]
+  },
+  {
+    "url": "https://github.com/bitcoindevkit/bdk/issues/1578",
+    "publishedAt": "2024-08-27T13:50:32Z",
+    "title": "PSBT Creation: Change Address Index Skipped on InsufficientFunds",
     "labels": [
       "bug"
     ]

@@ -31,5 +31,21 @@
     "labels": [
       "bug"
     ]
+  },
+  {
+    "url": "https://github.com/bitcoindevkit/bdk-ffi/issues/571",
+    "publishedAt": "2024-07-10T19:38:30Z",
+    "title": "bdkFFI.framework/bdkFFI does not contain a slice for arm64e-apple-macosx21.1",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "url": "https://github.com/bitcoindevkit/bdk-ffi/issues/573",
+    "publishedAt": "2024-07-18T19:47:53Z",
+    "title": "MacOS Build Error",
+    "labels": [
+      "bug"
+    ]
   }
 ]

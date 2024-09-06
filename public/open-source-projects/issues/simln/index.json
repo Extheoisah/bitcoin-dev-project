@@ -21,6 +21,16 @@
     ]
   },
   {
+    "url": "https://github.com/bitcoin-dev-project/sim-ln/issues/131",
+    "publishedAt": "2023-10-06T14:22:06Z",
+    "title": "Update `lightning` crate to anything over 0.0.17 when available ",
+    "labels": [
+      "feature",
+      "good first issue",
+      "Medium Priority"
+    ]
+  },
+  {
     "url": "https://github.com/bitcoin-dev-project/sim-ln/issues/134",
     "publishedAt": "2023-10-10T15:53:05Z",
     "title": "Remove trailing full stop from log lines ",
@@ -70,15 +80,6 @@
     ]
   },
   {
-    "url": "https://github.com/bitcoin-dev-project/sim-ln/issues/171",
-    "publishedAt": "2024-03-12T19:18:19Z",
-    "title": "Feature: Run random activity generation with fixed seed",
-    "labels": [
-      "feature",
-      "help wanted"
-    ]
-  },
-  {
     "url": "https://github.com/bitcoin-dev-project/sim-ln/issues/172",
     "publishedAt": "2024-03-12T19:50:27Z",
     "title": "Refactor: Use From<PaymentPreimage> when constructing PaymentHash",
@@ -106,6 +107,14 @@
       "Code Health",
       "Robustness",
       "High Priority"
+    ]
+  },
+  {
+    "url": "https://github.com/bitcoin-dev-project/sim-ln/issues/198",
+    "publishedAt": "2024-08-22T10:10:42Z",
+    "title": "Installation instructions needs to mention protobuf as a requirement ",
+    "labels": [
+      "bug"
     ]
   }
 ]

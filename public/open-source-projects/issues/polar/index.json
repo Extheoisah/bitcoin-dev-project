@@ -1,15 +1,5 @@
 [
   {
-    "url": "https://github.com/jamaljsr/polar/issues/388",
-    "publishedAt": "2020-10-19T15:06:09Z",
-    "title": "Feature Request: Rename nodes",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "up for grabs"
-    ]
-  },
-  {
     "url": "https://github.com/jamaljsr/polar/issues/517",
     "publishedAt": "2021-11-30T04:49:34Z",
     "title": "Bug: Issue interacting with Sparrow using Bitcoind backend",
@@ -55,30 +45,12 @@
     ]
   },
   {
-    "url": "https://github.com/jamaljsr/polar/issues/642",
-    "publishedAt": "2023-01-02T02:54:04Z",
-    "title": "Bug: Viewing terminals on Linux just gives a loading animated icon",
-    "labels": [
-      "bug",
-      "up for grabs"
-    ]
-  },
-  {
     "url": "https://github.com/jamaljsr/polar/issues/682",
     "publishedAt": "2023-02-21T14:25:15Z",
     "title": "Unable to connect to c-lightning node",
     "labels": [
       "bug",
       "up for grabs"
-    ]
-  },
-  {
-    "url": "https://github.com/jamaljsr/polar/issues/754",
-    "publishedAt": "2023-08-04T12:19:00Z",
-    "title": "Bug: clightning docker images fails because of cert generation error",
-    "labels": [
-      "bug",
-      "wip"
     ]
   },
   {
@@ -91,21 +63,12 @@
     ]
   },
   {
-    "url": "https://github.com/jamaljsr/polar/issues/836",
-    "publishedAt": "2024-02-21T21:47:41Z",
-    "title": "Feature Request: add a description field for each network",
+    "url": "https://github.com/jamaljsr/polar/issues/986",
+    "publishedAt": "2024-08-24T19:24:04Z",
+    "title": "Bug: GUI does not take the decimal point into account when showing the Taproot Assets balance",
     "labels": [
-      "enhancement",
-      "good first issue",
+      "bug",
       "up for grabs"
-    ]
-  },
-  {
-    "url": "https://github.com/jamaljsr/polar/issues/863",
-    "publishedAt": "2024-03-21T18:00:03Z",
-    "title": "Bug: Update instructions to create CLN custom node",
-    "labels": [
-      "bug"
     ]
   }
 ]

@@ -203,16 +203,6 @@
     ]
   },
   {
-    "url": "https://github.com/ElementsProject/lightning/issues/6419",
-    "publishedAt": "2023-07-21T06:03:43Z",
-    "title": "For an invoice generated via an offer, decodepay isn't working anymore, while pay still is",
-    "labels": [
-      "bug",
-      "good first issue",
-      "UX ✨"
-    ]
-  },
-  {
     "url": "https://github.com/ElementsProject/lightning/issues/6571",
     "publishedAt": "2023-08-16T05:19:16Z",
     "title": "Hodlinvoice fail",
@@ -291,11 +281,14 @@
     ]
   },
   {
-    "url": "https://github.com/ElementsProject/lightning/issues/7132",
-    "publishedAt": "2024-03-07T18:02:42Z",
-    "title": "Minor issue/question: Trailing spaces in Config file parameter make CLN fail to start",
+    "url": "https://github.com/ElementsProject/lightning/issues/7117",
+    "publishedAt": "2024-02-28T15:59:25Z",
+    "title": "gci: Consider adding a nightly CI workflow for reprobuilds",
     "labels": [
-      "good first issue"
+      "enhancement",
+      "help wanted",
+      "continuous-integration",
+      "build"
     ]
   },
   {
@@ -307,20 +300,22 @@
     ]
   },
   {
-    "url": "https://github.com/ElementsProject/lightning/issues/7305",
-    "publishedAt": "2024-05-13T12:58:39Z",
-    "title": "HTLC timeout transaction sweep is never run due to integer underflow",
+    "url": "https://github.com/ElementsProject/lightning/issues/7283",
+    "publishedAt": "2024-04-29T08:13:54Z",
+    "title": "Add an API-Method which returns the emergency.recover file",
     "labels": [
-      "bug",
-      "component::onchaind"
+      "enhancement",
+      "good first issue",
+      "backup"
     ]
   },
   {
-    "url": "https://github.com/ElementsProject/lightning/issues/7333",
-    "publishedAt": "2024-05-24T00:47:29Z",
-    "title": "Schemas use msat where parameter is actually sat",
+    "url": "https://github.com/ElementsProject/lightning/issues/7645",
+    "publishedAt": "2024-09-06T04:40:30Z",
+    "title": "Core lightning crashes with FATAL SIGNAL 11",
     "labels": [
-      "bug"
+      "bug",
+      "crash"
     ]
   }
 ]

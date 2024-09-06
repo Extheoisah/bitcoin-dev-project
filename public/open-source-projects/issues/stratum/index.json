@@ -1,14 +1,5 @@
 [
   {
-    "url": "https://github.com/stratum-mining/stratum/issues/33",
-    "publishedAt": "2021-08-20T16:12:09Z",
-    "title": "Use `shrink` for prop tests",
-    "labels": [
-      "documentation",
-      "good first issue"
-    ]
-  },
-  {
     "url": "https://github.com/stratum-mining/stratum/issues/67",
     "publishedAt": "2021-11-17T15:43:36Z",
     "title": "refactor all the repetitive code in roles-logic-sv2 parsers file into macros",
@@ -144,14 +135,6 @@
     ]
   },
   {
-    "url": "https://github.com/stratum-mining/stratum/issues/484",
-    "publishedAt": "2023-03-09T17:00:21Z",
-    "title": "mining-proxy needs graceful death instead of panic",
-    "labels": [
-      "good first issue"
-    ]
-  },
-  {
     "url": "https://github.com/stratum-mining/stratum/issues/677",
     "publishedAt": "2023-11-21T17:29:11Z",
     "title": "Feature flag to write logs to files instead of just stdout",
@@ -170,52 +153,12 @@
     ]
   },
   {
-    "url": "https://github.com/stratum-mining/stratum/issues/791",
-    "publishedAt": "2024-03-12T18:41:22Z",
-    "title": "`invalid-job-id` errors on `tProxy` don't result in rejection of shares",
-    "labels": [
-      "bug",
-      "good first issue",
-      "help wanted",
-      "translation proxy"
-    ]
-  },
-  {
-    "url": "https://github.com/stratum-mining/stratum/issues/844",
-    "publishedAt": "2024-04-12T16:16:49Z",
-    "title": "JDC is not doing fallback to solo-mining",
+    "url": "https://github.com/stratum-mining/stratum/issues/840",
+    "publishedAt": "2024-04-10T08:42:53Z",
+    "title": "Custom transactions from JDC removed from mempool during update",
     "labels": [
       "bug",
       "job-declarator-client"
-    ]
-  },
-  {
-    "url": "https://github.com/stratum-mining/stratum/issues/863",
-    "publishedAt": "2024-04-19T14:24:55Z",
-    "title": "JDC is not logging any error on wrong TP configuration",
-    "labels": [
-      "bug",
-      "good first issue",
-      "job-declarator-client"
-    ]
-  },
-  {
-    "url": "https://github.com/stratum-mining/stratum/issues/874",
-    "publishedAt": "2024-04-29T17:54:18Z",
-    "title": "undeterministic connection between JDC and pool",
-    "labels": [
-      "bug",
-      "important",
-      "sv2 pool",
-      "job-declarator-client"
-    ]
-  },
-  {
-    "url": "https://github.com/stratum-mining/stratum/issues/902",
-    "publishedAt": "2024-05-09T13:40:27Z",
-    "title": "IdentifyTransactions message not implemented",
-    "labels": [
-      "good first issue"
     ]
   },
   {
@@ -225,6 +168,95 @@
     "labels": [
       "bug",
       "job-declarator-client"
+    ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/951",
+    "publishedAt": "2024-06-02T14:20:27Z",
+    "title": "`StandardChannel` support on JDC",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "job-declarator-client"
+    ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/954",
+    "publishedAt": "2024-06-03T21:05:50Z",
+    "title": "MG message library",
+    "labels": [
+      "help wanted",
+      "important",
+      "message-generator"
+    ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/955",
+    "publishedAt": "2024-06-04T15:13:51Z",
+    "title": "MG tests reproducing #840",
+    "labels": [
+      "bug",
+      "help wanted",
+      "test",
+      "important",
+      "message-generator"
+    ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/979",
+    "publishedAt": "2024-06-19T07:49:55Z",
+    "title": "Speed up github action with sscache",
+    "labels": [
+      "good first issue",
+      "help wanted"
+    ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/1006",
+    "publishedAt": "2024-06-26T17:58:05Z",
+    "title": "TProxy responding to mining.submit with result:true for low difficulty shares.",
+    "labels": [
+      "bug",
+      "translation proxy"
+    ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/1028",
+    "publishedAt": "2024-07-03T08:57:34Z",
+    "title": "MG CI is too slow",
+    "labels": [
+      "good first issue",
+      "message-generator",
+      "ci/cd"
+    ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/1053",
+    "publishedAt": "2024-07-16T09:14:31Z",
+    "title": "Pool is not properly checking the SetCustomMiningJob message received",
+    "labels": [
+      "bug",
+      "sv2 pool"
+    ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/1082",
+    "publishedAt": "2024-08-07T14:29:39Z",
+    "title": "JDC should stop sending shares upstream if pool prev hash is different from JDC prev hash",
+    "labels": [
+      "bug",
+      "job declarator",
+      "job-declarator-client"
+    ]
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/1138",
+    "publishedAt": "2024-08-22T08:23:01Z",
+    "title": "SRI most important, but NOT critical bugs",
+    "labels": [
+      "bug",
+      "backlog",
+      "tracker"
     ]
   }
 ]

@@ -26,23 +26,6 @@
     ]
   },
   {
-    "url": "https://github.com/fedimint/ui/issues/181",
-    "publishedAt": "2023-09-02T18:11:36Z",
-    "title": "Add `Peer ID` to Federation Admin dashboard",
-    "labels": [
-      "good first issue",
-      "guardian-ui"
-    ]
-  },
-  {
-    "url": "https://github.com/fedimint/ui/issues/182",
-    "publishedAt": "2023-09-02T18:13:32Z",
-    "title": "Tests for utility functions for millit-sat math",
-    "labels": [
-      "good first issue"
-    ]
-  },
-  {
     "url": "https://github.com/fedimint/ui/issues/186",
     "publishedAt": "2023-09-07T15:15:11Z",
     "title": "Add the abillity to specify your own `FM_TEST_DIR`",
@@ -60,24 +43,6 @@
     ]
   },
   {
-    "url": "https://github.com/fedimint/ui/issues/219",
-    "publishedAt": "2023-10-06T13:25:02Z",
-    "title": "Gateway withdrawal modal does not show error",
-    "labels": [
-      "bug",
-      "gateway-ui"
-    ]
-  },
-  {
-    "url": "https://github.com/fedimint/ui/issues/297",
-    "publishedAt": "2023-11-14T19:50:29Z",
-    "title": "`nix-guardian` running 2 UIs against the same Fedimintd instance",
-    "labels": [
-      "bug",
-      "development"
-    ]
-  },
-  {
     "url": "https://github.com/fedimint/ui/issues/343",
     "publishedAt": "2023-12-14T21:30:44Z",
     "title": "Guardian UI favicon and manifest.json reference non-existent `logo192.png`",
@@ -87,9 +52,17 @@
     ]
   },
   {
-    "url": "https://github.com/fedimint/ui/issues/358",
-    "publishedAt": "2024-01-23T23:34:56Z",
-    "title": "leader should not restart after peers have moved to consensus running",
+    "url": "https://github.com/fedimint/ui/issues/474",
+    "publishedAt": "2024-08-08T18:24:16Z",
+    "title": "0.4.0 Broken Restart Setup",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "url": "https://github.com/fedimint/ui/issues/493",
+    "publishedAt": "2024-08-14T21:35:55Z",
+    "title": " bug: solo doesn't show federation name during setup",
     "labels": [
       "bug"
     ]

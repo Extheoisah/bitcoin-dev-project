@@ -124,19 +124,6 @@
     "imageUrl": "https://avatars.githubusercontent.com/u/13424735?v=4"
   },
   {
-    "url": "https://github.com/lightningnetwork/lnd/issues/5169",
-    "publishedAt": "2021-04-05T10:34:02Z",
-    "title": "[lncli] lnd.conf in lnddir arg's directory should be read",
-    "labels": [
-      "help wanted",
-      "beginner",
-      "config",
-      "cli",
-      "lncli"
-    ],
-    "imageUrl": "https://avatars.githubusercontent.com/u/13424735?v=4"
-  },
-  {
     "url": "https://github.com/lightningnetwork/lnd/issues/5203",
     "publishedAt": "2021-04-12T23:25:41Z",
     "title": "walletrpc SendOutputs fails to attach zero value outputs",
@@ -146,19 +133,6 @@
       "wallet",
       "beginner",
       "feature request"
-    ],
-    "imageUrl": "https://avatars.githubusercontent.com/u/13424735?v=4"
-  },
-  {
-    "url": "https://github.com/lightningnetwork/lnd/issues/5262",
-    "publishedAt": "2021-05-01T23:51:26Z",
-    "title": "Backup exports fails when static channel backups is updated",
-    "labels": [
-      "bug",
-      "rpc",
-      "channel closing",
-      "P2",
-      "backups"
     ],
     "imageUrl": "https://avatars.githubusercontent.com/u/13424735?v=4"
   },
@@ -1146,6 +1120,29 @@
     "title": "[bug]: SendCoins sweep functionality returning `insufficient input to create sweep tx`",
     "labels": [
       "bug",
+      "needs triage"
+    ],
+    "imageUrl": "https://avatars.githubusercontent.com/u/13424735?v=4"
+  },
+  {
+    "url": "https://github.com/lightningnetwork/lnd/issues/8149",
+    "publishedAt": "2023-11-03T17:44:26Z",
+    "title": "[bug]: ChannelArbitrator does not cleanly stop",
+    "labels": [
+      "bug",
+      "P3"
+    ],
+    "imageUrl": "https://avatars.githubusercontent.com/u/13424735?v=4"
+  },
+  {
+    "url": "https://github.com/lightningnetwork/lnd/issues/8153",
+    "publishedAt": "2023-11-07T00:05:14Z",
+    "title": "chancloser: implement the new option_simple_close co-op close flow",
+    "labels": [
+      "bug",
+      "intermediate",
+      "channel closing",
+      "spec",
       "needs triage"
     ],
     "imageUrl": "https://avatars.githubusercontent.com/u/13424735?v=4"

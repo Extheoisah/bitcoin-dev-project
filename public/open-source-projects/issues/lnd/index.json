@@ -137,6 +137,19 @@
     "imageUrl": "https://avatars.githubusercontent.com/u/13424735?v=4"
   },
   {
+    "url": "https://github.com/lightningnetwork/lnd/issues/5262",
+    "publishedAt": "2021-05-01T23:51:26Z",
+    "title": "Backup exports fails when static channel backups is updated",
+    "labels": [
+      "bug",
+      "rpc",
+      "channel closing",
+      "P2",
+      "backups"
+    ],
+    "imageUrl": "https://avatars.githubusercontent.com/u/13424735?v=4"
+  },
+  {
     "url": "https://github.com/lightningnetwork/lnd/issues/5324",
     "publishedAt": "2021-05-22T14:26:28Z",
     "title": "Improve channel force close logging",
@@ -1131,19 +1144,6 @@
     "labels": [
       "bug",
       "P3"
-    ],
-    "imageUrl": "https://avatars.githubusercontent.com/u/13424735?v=4"
-  },
-  {
-    "url": "https://github.com/lightningnetwork/lnd/issues/8153",
-    "publishedAt": "2023-11-07T00:05:14Z",
-    "title": "chancloser: implement the new option_simple_close co-op close flow",
-    "labels": [
-      "bug",
-      "intermediate",
-      "channel closing",
-      "spec",
-      "needs triage"
     ],
     "imageUrl": "https://avatars.githubusercontent.com/u/13424735?v=4"
   }

@@ -378,7 +378,9 @@
     "publishedAt": "2024-11-07T18:26:58Z",
     "title": "Wallet should use transaction version 2 when creating transactions",
     "labels": [
-      "good first issue"
+      "good first issue",
+      "module-wallet",
+      "audit"
     ],
     "imageUrl": "https://avatars.githubusercontent.com/u/62867074?v=4"
   },

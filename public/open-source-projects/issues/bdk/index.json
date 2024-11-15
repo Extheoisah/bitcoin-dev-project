@@ -230,16 +230,6 @@
     "imageUrl": "https://avatars.githubusercontent.com/u/62867074?v=4"
   },
   {
-    "url": "https://github.com/bitcoindevkit/bdk/issues/1113",
-    "publishedAt": "2023-09-06T02:06:13Z",
-    "title": "test: consolidate esplora blocking and async test code",
-    "labels": [
-      "good first issue",
-      "tests"
-    ],
-    "imageUrl": "https://avatars.githubusercontent.com/u/62867074?v=4"
-  },
-  {
     "url": "https://github.com/bitcoindevkit/bdk/issues/1134",
     "publishedAt": "2023-09-28T06:58:14Z",
     "title": "BIP 326 Anti Fee Sniping",

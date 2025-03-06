@@ -55,5 +55,16 @@
       "bug"
     ],
     "imageUrl": "https://avatars.githubusercontent.com/u/84478549?v=4"
+  },
+  {
+    "url": "https://github.com/fedimint/fedimint-ui/issues/632",
+    "publishedAt": "2025-03-06T19:58:44Z",
+    "title": "Validate `StabilityPool` related meta fields in guardian Metadata config",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "guardian-ui"
+    ],
+    "imageUrl": "https://avatars.githubusercontent.com/u/84478549?v=4"
   }
 ]

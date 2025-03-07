@@ -59,7 +59,7 @@
   {
     "url": "https://github.com/fedimint/fedimint-ui/issues/632",
     "publishedAt": "2025-03-06T19:58:44Z",
-    "title": "Validate `StabilityPool` related meta fields in guardian Metadata config",
+    "title": "Create validation logic for known metadata fields in guardian Metadata config",
     "labels": [
       "enhancement",
       "good first issue",

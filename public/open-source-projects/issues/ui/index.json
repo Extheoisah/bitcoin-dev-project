@@ -1,63 +1,63 @@
 [
   {
-    "url": "https://github.com/fedimint/fedimint-ui/issues/156",
+    "url": "https://github.com/fedibtc/fedimint-ui/issues/156",
     "publishedAt": "2023-08-28T18:02:36Z",
     "title": "Follower prematurely shows message that all have approved after approving",
     "labels": [
       "bug"
     ],
-    "imageUrl": "https://avatars.githubusercontent.com/u/84478549?v=4"
+    "imageUrl": "https://avatars.githubusercontent.com/u/109590779?v=4"
   },
   {
-    "url": "https://github.com/fedimint/fedimint-ui/issues/162",
+    "url": "https://github.com/fedibtc/fedimint-ui/issues/162",
     "publishedAt": "2023-08-30T19:01:45Z",
     "title": "Provide typed `useTheme` hook from `packages/ui`",
     "labels": [
       "enhancement",
       "good first issue"
     ],
-    "imageUrl": "https://avatars.githubusercontent.com/u/84478549?v=4"
+    "imageUrl": "https://avatars.githubusercontent.com/u/109590779?v=4"
   },
   {
-    "url": "https://github.com/fedimint/fedimint-ui/issues/186",
+    "url": "https://github.com/fedibtc/fedimint-ui/issues/186",
     "publishedAt": "2023-09-07T15:15:11Z",
     "title": "Add the abillity to specify your own `FM_TEST_DIR`",
     "labels": [
       "good first issue"
     ],
-    "imageUrl": "https://avatars.githubusercontent.com/u/84478549?v=4"
+    "imageUrl": "https://avatars.githubusercontent.com/u/109590779?v=4"
   },
   {
-    "url": "https://github.com/fedimint/fedimint-ui/issues/212",
+    "url": "https://github.com/fedibtc/fedimint-ui/issues/212",
     "publishedAt": "2023-09-28T00:03:08Z",
     "title": "VPN-related websocket failure",
     "labels": [
       "bug",
       "question"
     ],
-    "imageUrl": "https://avatars.githubusercontent.com/u/84478549?v=4"
+    "imageUrl": "https://avatars.githubusercontent.com/u/109590779?v=4"
   },
   {
-    "url": "https://github.com/fedimint/fedimint-ui/issues/343",
+    "url": "https://github.com/fedibtc/fedimint-ui/issues/343",
     "publishedAt": "2023-12-14T21:30:44Z",
     "title": "Guardian UI favicon and manifest.json reference non-existent `logo192.png`",
     "labels": [
       "bug",
       "guardian-ui"
     ],
-    "imageUrl": "https://avatars.githubusercontent.com/u/84478549?v=4"
+    "imageUrl": "https://avatars.githubusercontent.com/u/109590779?v=4"
   },
   {
-    "url": "https://github.com/fedimint/fedimint-ui/issues/474",
+    "url": "https://github.com/fedibtc/fedimint-ui/issues/474",
     "publishedAt": "2024-08-08T18:24:16Z",
     "title": "0.4.0 Broken Restart Setup",
     "labels": [
       "bug"
     ],
-    "imageUrl": "https://avatars.githubusercontent.com/u/84478549?v=4"
+    "imageUrl": "https://avatars.githubusercontent.com/u/109590779?v=4"
   },
   {
-    "url": "https://github.com/fedimint/fedimint-ui/issues/632",
+    "url": "https://github.com/fedibtc/fedimint-ui/issues/632",
     "publishedAt": "2025-03-06T19:58:44Z",
     "title": "Create validation logic for known metadata fields in guardian Metadata config",
     "labels": [
@@ -65,15 +65,15 @@
       "good first issue",
       "guardian-ui"
     ],
-    "imageUrl": "https://avatars.githubusercontent.com/u/84478549?v=4"
+    "imageUrl": "https://avatars.githubusercontent.com/u/109590779?v=4"
   },
   {
-    "url": "https://github.com/fedimint/fedimint-ui/issues/637",
+    "url": "https://github.com/fedibtc/fedimint-ui/issues/637",
     "publishedAt": "2025-03-16T11:59:50Z",
     "title": "Add Error Boundary",
     "labels": [
       "good first issue"
     ],
-    "imageUrl": "https://avatars.githubusercontent.com/u/84478549?v=4"
+    "imageUrl": "https://avatars.githubusercontent.com/u/109590779?v=4"
   }
 ]

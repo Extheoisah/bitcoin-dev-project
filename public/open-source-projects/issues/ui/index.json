@@ -75,5 +75,14 @@
       "good first issue"
     ],
     "imageUrl": "https://avatars.githubusercontent.com/u/109590779?v=4"
+  },
+  {
+    "url": "https://github.com/fedibtc/fedimint-ui/issues/653",
+    "publishedAt": "2025-05-07T12:19:52Z",
+    "title": "Password not encoded into the Authenticate as Guardian QR Code",
+    "labels": [
+      "bug"
+    ],
+    "imageUrl": "https://avatars.githubusercontent.com/u/109590779?v=4"
   }
 ]

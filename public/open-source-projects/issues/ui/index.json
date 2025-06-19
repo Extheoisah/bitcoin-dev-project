@@ -84,5 +84,15 @@
       "bug"
     ],
     "imageUrl": "https://avatars.githubusercontent.com/u/109590779?v=4"
+  },
+  {
+    "url": "https://github.com/fedibtc/fedimint-ui/issues/659",
+    "publishedAt": "2025-06-19T15:41:51Z",
+    "title": "Update \"Reset to Consensus\" Phrasing in Guardian UI",
+    "labels": [
+      "good first issue",
+      "guardian-ui"
+    ],
+    "imageUrl": "https://avatars.githubusercontent.com/u/109590779?v=4"
   }
 ]
